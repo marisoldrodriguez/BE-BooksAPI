@@ -36,6 +36,4 @@ app.get("*", (req, res) => {
 });
 
 // Listens for connections - keeps server open
-app.listen(process.env.PORT, function () {
-  console.log("Hello, I am ready!");
-});
+app.listen(process.env.PORT);
